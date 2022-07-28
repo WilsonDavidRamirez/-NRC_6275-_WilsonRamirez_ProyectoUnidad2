@@ -1,0 +1,38 @@
+@import url("https://fonts.googleapis.com/css?family=Open+Sans");/* Fuente para el form*/
+
+* {/* Estilo general*/
+  margin: 0;
+  padding: 0;
+}
+
+body {/*Estilos para todo el documento */
+  font-family: "Open Sans";
+  font-size: 14px;
+}
+
+.title {/*Estilo para los elementos con etiqueta title */
+  margin-bottom: 1rem;
+}
+
+form input { /*Estilo para nuestro input de formulario */
+  height: 25px;
+  line-height: 25px;
+  background: #fff;
+  color: #000;
+  padding: 0 6px;
+  box-sizing: border-box;
+}
+
+form button {/*Estilo para nuestro button de formulario */
+  height: 30px;
+  line-height: 30px;
+  background: #e67e22;
+  color: #fff;
+  text-transform: uppercase;
+  font-weight: bold;
+  margin-top: 1.5rem;
+  cursor: pointer;
+}
+form .error {/*Estilo para nuestros mensajes de alerta/error al momento de verificar los campos*/
+  color: #ff0000;
+}
